@@ -1,0 +1,19 @@
+{
+  "name": "youtubeserver",
+  "version": "1.0.0",
+  "description": "This is a youtube app server  backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start "
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "js"
+  ],
+  "author": "Veer Randhir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
