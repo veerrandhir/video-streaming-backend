@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This is a youtube app server  backend project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run start "
+    "dev": "nodemon src.index.js "
   },
   "keywords": [
     "nodejs",
@@ -15,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
