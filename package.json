@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src.index.js "
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src.index.js "
   },
   "keywords": [
     "nodejs",
@@ -15,9 +15,13 @@
   "author": "Veer Randhir",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
   }
 }
