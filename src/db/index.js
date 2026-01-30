@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-import { DB_Name } from "../constants.js";
+import { DB_Name } from "../../constants.js";
 
 // Step to connect DB -> import -> mongoose.connect(env) -> Handle error
 const connectDB = async () => {
