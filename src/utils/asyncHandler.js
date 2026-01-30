@@ -1,5 +1,5 @@
 const asycHandler = (requestHandler) => {
-  (req, res, next) => {
+  return (req, res, next) => {
     Promise.reolve(requestHandler(req, res, next)).catch((err) => next(err));
   };
 };

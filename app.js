@@ -20,4 +20,10 @@ app.use(cookieParser());
 app.use(express.static("public"));
 app.use(cookieParser());
 
+// import router  manchaha name se import kar rha hun ahan kyu ki export default kiye the
+import userRouter from "./src/routes/user.routes";
+
+// routes declaration
+app.use("/api/v1/users", userRouter);
+
 export { app };
